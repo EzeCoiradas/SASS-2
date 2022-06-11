@@ -1,0 +1,33 @@
+@mixin links($color) {
+	color: $color;
+	display: inline-block;
+	margin-top: 1% ;
+	margin-right: 5%;
+	margin-bottom: 1%;
+	margin-left: 10%;
+	border: 10px double;
+	padding: 1px;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'Bebas Neue', cursive;
+	background-color: gray;
+	&:hover{
+	color: white;
+	}
+}
+@mixin texts {
+	color: blue;
+	background-color: beige;
+	font-size: 25px;
+	font-weight: 400;
+	font-family: 'Tapestry', cursive;
+	width: 800px;
+	height: 180px;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-right: 10%;
+	margin-left: 29%;
+	border: 10px solid;
+	padding-bottom: 0%;
+}

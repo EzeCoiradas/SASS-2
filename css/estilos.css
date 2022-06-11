@@ -35,6 +35,7 @@ body {
 }
 
 .menu ul li {
+  color: red;
   display: inline-block;
   margin-top: 1%;
   margin-right: 5%;
